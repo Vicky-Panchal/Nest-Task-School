@@ -1,0 +1,18 @@
+POST http://localhost:3000/school-two/addStudent
+Content-Type: application/json
+
+{
+    "studentName": "Ashish",
+    "aadharID": 123456789,
+    "email": "ashish12@gmail.com"
+}
+
+###
+
+GET http://localhost:3000/school-two/2
+
+###
+GET http://localhost:3000/school-two?studentName=Vicky Panchal
+
+###
+DELETE http://localhost:3000/school-/1
